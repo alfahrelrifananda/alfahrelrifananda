@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**alfahrelrifananda/alfahrelrifananda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Nabillio Alfahrel Rifananda, but you can call me Fahrel.
 
-Here are some ideas to get you started:
+I'm a web and mobile developer with a love for open-source and free software.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+What I'm currently working on
+
+    🌱 I have a solid foundation in basic web development with HTML, CSS, and JavaScript.
+
+    💻 I'm experienced with frameworks and technologies like React, Laravel, PHP, and Flutter.
+
+    📱 I also have experience in native mobile development using Java for Android.
+
+    🚀 I'm currently learning C# to expand my skills.
+
+    🐧 As a GNU/Linux enthusiast, I'm passionate about free software and open-source principles.
