@@ -11,5 +11,5 @@ I'm a web and mobile developer with a love for open-source and free software.
   <li>I'm experienced with frameworks and technologies like React, Laravel, Wordpress, and Flutter.</li>
   <li>I also have experience in native mobile development using Java for Android.</li>
   <li>I'm currently learning C# for my college.</li>
-  <li>As a GNU/Linux enthusiast, I'm passionate about free software and open-source principles.</li>
+  <li>As a GNU/Linux user, I'm passionate about free software and open-source software.</li>
 </ol>
