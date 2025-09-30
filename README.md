@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there!
 
 I'm **Nabillio Alfahrel Rifananda**, but you can call me <strong>Fahrel.</strong>
 
