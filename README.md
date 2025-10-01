@@ -1,6 +1,6 @@
 ### Hi there!
 
-I'm **Nabillio Alfahrel Rifananda**, but you can call me <strong>Fahrel.</strong>
+My Name is **Nabillio Alfahrel Rifananda**, but you can call me <strong>Fahrel.</strong>
 
 I'm a web and mobile developer with a love for open-source and free software.
 
