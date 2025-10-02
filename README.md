@@ -14,5 +14,4 @@ I'm a web and mobile developer with a love for open-source and free software.
   <li>As a GNU/Linux user, I'm passionate about free and open-source software.</li>
 </ol>
 
-Most used language
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alfahrelrifananda)
