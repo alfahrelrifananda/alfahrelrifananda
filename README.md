@@ -4,8 +4,6 @@ My Name is **Nabillio Alfahrel Rifananda**, but you can call me <strong>Fahrel.<
 
 I'm a web and mobile developer with a love for open-source and free software.
 
-<img height="200em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alfahrelrifananda&layout=compact&langs_count=4&theme=algolia&bg_color=00000000&hide_border=true"/>
-
 ### My Toolkit
 
 <ol>
