@@ -1,6 +1,6 @@
 # Hi there! 👋
 
-My name is **Fahrel**, i'm a web and mobile developer with a interest for open-source and free software movement. I enjoy building things and contributing to the community.
+My name is **Fahrel**, i'm a web and mobile developer.
 
 ## What I Work With
 
