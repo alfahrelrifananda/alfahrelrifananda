@@ -1,4 +1,4 @@
-# Hi there! 👋
+# Hi there!
 
 My name is **Fahrel**, i'm a web and mobile developer.
 
@@ -11,7 +11,7 @@ My name is **Fahrel**, i'm a web and mobile developer.
 
 **Mobile Development**
 - Flutter
-- Native Android with Java
+- Android Native
 
 **Programming Languages**
 - C, C#, JavaScript, Java
