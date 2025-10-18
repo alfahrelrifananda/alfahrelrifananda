@@ -14,7 +14,7 @@ My name is **Fahrel**, i'm a web and mobile developer.
 - Android Native
 
 **Programming Languages**
-- C, C#, JavaScript, Java
+- C, C#, JavaScript, Java, PHP
 
 ## About Me
 
