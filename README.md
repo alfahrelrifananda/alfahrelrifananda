@@ -4,6 +4,10 @@ My name is **Fahrel**, i'm a web and mobile developer.
 
 ## What I Work With
 
+**Design**
+- Figma
+- Canva
+
 **Web Development**
 - HTML, CSS, JavaScript
 - React
