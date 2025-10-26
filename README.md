@@ -19,7 +19,3 @@ My name is **Fahrel**, i'm a web and android developer.
 
 **Programming Languages**
 - C, C#, JavaScript, Java, PHP
-
-## About Me
-
-I'm into open-source projects and creating software that's accessible and free (as in freedom). I like the process of building things from start to finish, whether that's web or mobile application
