@@ -13,7 +13,7 @@ My name is **Fahrel**, i'm a web and android developer.
 - React
 - Laravel
 
-**Mobile Development**
+**Android Development**
 - Flutter
 - Android Native
 
