@@ -9,13 +9,10 @@ My name is **Fahrel**, i'm a web and android developer.
 - Canva
 
 **Web Development**
-- HTML, CSS, JavaScript
+- HTML, CSS, JavaScript, PHP
 - React
 - Laravel
 
 **Android Development**
 - Flutter
 - Android Native
-
-**Programming Languages**
-- C, C#, JavaScript, Java, PHP
