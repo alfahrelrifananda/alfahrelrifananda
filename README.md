@@ -1,3 +1,3 @@
 # Hi there!
 
-My name is **Fahrel**, i'm a free software enthusiast.
+My name is **Fahrel**, nice to meet you!.
