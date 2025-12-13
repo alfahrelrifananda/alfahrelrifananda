@@ -6,6 +6,11 @@ copyright = "© AlfahrelRifananda"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
 	mode="auto"
 	useCDN=false
