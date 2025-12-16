@@ -33,7 +33,7 @@ url = "https://gitlab.com/alfahrelrifananda/"
 
 [[menu.main]]
 name = "Home"
-url = "/"
+url = "https://alfahrelrifananda.my.id/"
 weight = 1
 
 [[menu.main]]
