@@ -12,7 +12,7 @@ pygmentscodefencesguesssyntax = true
     dir = ':cacheDir/images'
 
 [params]
-	mode="auto"
+	mode="dark"
 	useCDN=false
 	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 
