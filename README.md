@@ -6,9 +6,5 @@ A simple personal website built with Hugo and the Archie theme.
 
 - **Framework**: [Hugo](https://gohugo.io/)
 - **Theme**: [Archie](https://github.com/athul/archie)
-
-## Author
-
-© 2025 AlfahrelRifananda
-
+- **Site**: [www.alfahrelrifananda.my.id](https://www.alfahrelrifananda.my.id)
 
