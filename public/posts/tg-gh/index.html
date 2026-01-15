@@ -23,7 +23,7 @@
 
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.7a5c05040394322612a2d98397e9932aa81d9d7acc70199463e79f8180c8e0c0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css" media="(prefers-color-scheme: dark)"  />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css"  disabled />
 </head>
 <body>
         <div class="content"><header>
@@ -32,7 +32,7 @@
 	</div>
 	<nav>
 		
-		<a href="/">Home</a>
+		<a href="https://alfahrelrifananda.my.id/">Home</a>
 		
 		<a href="/posts">All posts</a>
 		
@@ -40,6 +40,18 @@
 		
 		<a href="/tags">Tags</a>
 		
+		<button id="dark-mode-toggle" class="nav-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" type="button"><svg class="feather" viewBox="0 0 24 24" fill="none" stroke="#232333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg></button>
+		<script src="http://localhost:1313/js/themetoggle.js"></script>
 		
 	</nav>
 </header>
@@ -445,7 +457,7 @@ Create a new bot with the <code>/newbot</code> command and get the API key. We&r
        <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#gitlab" />
     </svg></a><a class="border"></a></div>
   <div class="footer-info">
-    2025  © AlfahrelRifananda |  <a
+    2026  © AlfahrelRifananda |  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>

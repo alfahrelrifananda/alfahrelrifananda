@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on AlfahrelRifananda</title>
+    <link>http://localhost:1313/tags/react/</link>
+    <description>Recent content in React on AlfahrelRifananda</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© AlfahrelRifananda</copyright>
+    <lastBuildDate>Thu, 15 Jan 2026 16:45:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why React is Ruining the Web</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Thu, 15 Jan 2026 16:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>&lt;p&gt;React has become the default choice for web development, but at what cost? Let&amp;rsquo;s talk about how the React ecosystem has led us down a path of unnecessary complexity, bloated bundles, and websites that fail basic usability standards.&lt;/p&gt;&#xA;&lt;p&gt;I need to start with a confession: I&amp;rsquo;ve built dozens of production applications with React. I understand its appeal. The component model is elegant, the ecosystem is vast, and the developer experience can be quite nice. But somewhere along the way, we stopped asking whether we should use React and started assuming we must use it for everything.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

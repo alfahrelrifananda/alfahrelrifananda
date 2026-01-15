@@ -21,16 +21,6 @@ name = "GitHub"
 icon = "github"
 url = "https://github.com/alfahrelrifananda/"
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/alfahrelrifananda/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/alfahrelrifananda/"
-
 [[menu.main]]
 name = "Home"
 url = "https://alfahrelrifananda.my.id/"

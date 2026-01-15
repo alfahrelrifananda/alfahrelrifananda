@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Static Site Generators on AlfahrelRifananda</title>
+    <link>http://localhost:1313/tags/static-site-generators/</link>
+    <description>Recent content in Static Site Generators on AlfahrelRifananda</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© AlfahrelRifananda</copyright>
+    <lastBuildDate>Thu, 15 Jan 2026 14:30:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/static-site-generators/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Hugo is the Best Static Site Generator</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Thu, 15 Jan 2026 14:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>&lt;p&gt;After years of wrestling with slow build times, complicated setups, and bloated frameworks, I discovered Hugo. Here&amp;rsquo;s why it stands head and shoulders above the rest.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re building websites in 2026, you&amp;rsquo;ve probably heard of static site generators. There are dozens of options out there—Jekyll, Gatsby, Next.js, Eleventy, and many more. Each has its strengths, but after trying them all, I keep coming back to Hugo. Not out of habit, but because it genuinely solves problems that other generators simply can&amp;rsquo;t match.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

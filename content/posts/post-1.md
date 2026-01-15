@@ -1,62 +1,111 @@
 ---
-title: "Primer: When You Have Too Much to Do"
-date: 2020-04-01T02:01:58+05:30
-description: "You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more."
-tags: [Primer, todo]
+title: "Why Hugo is the Best Static Site Generator"
+date: 2026-01-15T14:30:00+07:00
+description: "After years of wrestling with slow build times, complicated setups, and bloated frameworks, I discovered Hugo. Here's why it stands head and shoulders above the rest."
+tags: [Hugo, Static Site Generators, Web Development, Performance]
 ---
 
-You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.
+After years of wrestling with slow build times, complicated setups, and bloated frameworks, I discovered Hugo. Here's why it stands head and shoulders above the rest.
 
-It all keeps piling up, and it can feel overwhelming.
+If you're building websites in 2026, you've probably heard of static site generators. There are dozens of options out there—Jekyll, Gatsby, Next.js, Eleventy, and many more. Each has its strengths, but after trying them all, I keep coming back to Hugo. Not out of habit, but because it genuinely solves problems that other generators simply can't match.
 
-How do you keep up with it all? How do you find focus and peace and get stuff accomplished when you have too much on your plate?
+Let me walk you through why Hugo has become my go-to tool for building websites, and why it might become yours too.
 
-In this primer, I’ll look at some key strategies and tactics for taking on an overloaded life with an open heart, lots of energy, and a smile on your face.
+## Speed That Actually Matters
 
-## The First Step: Triage
+Let's start with the elephant in the room: speed. And I'm not talking about the speed of your final website (though Hugo excels there too). I'm talking about build speed—the time it takes to generate your site from source files.
 
-Whether you’re just starting your day, or you’re in the middle of the chaos and just need to find some sanity … the first step is to get into triage mode.
+Hugo is blindingly fast. We're talking milliseconds for small sites, and seconds for sites with thousands of pages. Compare that to other popular generators that can take minutes or even hours for large sites, and you'll understand why this matters.
 
-Triage, as you probably know, is sorting through the chaos to prioritize: what needs to be done now, what needs to be done today, what needs to be done this week, and what can wait? You’re looking at urgency, but also what’s meaningful and important.
+Here's what this means in practice:
 
-Here’s what you might do:
+* **Instant feedback during development.** Change a template, refresh your browser, and see the result immediately. No waiting for rebuilds. No coffee breaks while your site compiles.
+* **Faster deployment pipelines.** When your CI/CD pipeline builds in 3 seconds instead of 3 minutes, you can iterate faster and deploy with confidence.
+* **Scalability without headaches.** Your blog with 10 posts builds fast. So does your documentation site with 10,000 pages. Hugo doesn't slow down as your content grows.
 
-* Pick out the things that need to be done today. Start a Short List for things you’re going to do today. That might be important tasks for big projects, urgent tasks that could result in damage if you don’t act, smaller admin tasks that you really should take care of today, and responding to important messages. I would recommend being ruthless and cutting out as much as you can, having just 5 things on your plate if that’s at all possible. Not everything needs to be done today, and not every email needs to be responded to.
-* Push some things to tomorrow and the rest of the week. If you have deadlines that can be pushed back (or renegotiated), do that. Spread the work out over the week, even into next week. What needs to be done tomorrow? What can wait a day or two longer?
-* Eliminate what you can. That might mean just not replying to some messages that aren’t that important and don’t really require a reply. It might mean telling some people that you can’t take on this project after all, or that you need to get out of the commitment that you said you’d do. Yes, this is uncomfortable. For now, just put them on a list called, “To Not Do,” and plan to figure out how to get out of them later.
+This speed comes from Hugo being written in Go and compiled to a single binary. There's no Node.js runtime overhead, no dependency resolution, no transpilation steps. Just pure, compiled performance.
 
-OK, you have some breathing room and a manageable list now! Let’s shrink that down even further and just pick one thing.
+## Zero Dependencies: The Freedom You Didn't Know You Needed
 
-## Next: Focus on One Thing
+Remember the last time you ran `npm install` and watched thousands of packages flood into your node_modules folder? Remember dealing with version conflicts, security vulnerabilities in nested dependencies, or that one package that broke everything when it updated?
 
-With a lot on your plate, it’s hard to pick one thing to focus on. But that’s exactly what I’m going to ask you to do.
+Hugo has zero runtime dependencies.
 
-Pick one thing, and give it your focus. Yes, there are a lot of other things you can focus on. Yes, they’re stressing you out and making it hard to focus. But think about it this way: if you allow it all to be in your head all the time, that will always be your mode of being. You’ll always be thinking about everything, stressing out about it all, with a frazzled mind … unless you start shifting.
+You download a single binary. That's it. No package.json, no Gemfile, no requirements.txt. Just one executable file that contains everything Hugo needs to build your site.
 
-The shift:
+This simplicity is revolutionary:
 
-* Pick something to focus on. Look at the triaged list from the first section … if you have 5-6 things on this Short List, you can assess whether there’s any super urgent, time-sensitive things you need to take care of. If there are, pick one of them. If not, pick the most important one — probably the one you have been putting off doing.
-* Clear everything else away. Just for a little bit. Close all browser tabs, turn off notifications, close open applications, put your phone away.
-* Put that one task before you, and allow yourself to be with it completely. Pour yourself into it. Think of it as a practice, of letting go (of everything else), of focus, of radical simplicity.
+* **No dependency hell.** You'll never deal with incompatible package versions or mysterious build failures because a nested dependency updated.
+* **Easier onboarding.** New team members download Hugo and start building. No "it works on my machine" problems.
+* **Future-proof projects.** Come back to a Hugo project after 5 years, and it still works. Try that with a JavaScript-based generator and its 500 dependencies.
+* **Secure by default.** Fewer dependencies mean fewer attack vectors. No worrying about supply chain attacks through compromised npm packages.
 
-When you’re done (or after 15-20 minutes have gone by at least), you can switch to something else. But don’t allow yourself to switch until then.
+## Content Organization That Makes Sense
 
-By closing off all exits, by choosing one thing, by giving yourself completely to that thing … you’re now in a different mode that isn’t so stressful or spread thin. You’ve started a shift that will lead to focus and sanity.
+Hugo's content organization is beautifully intuitive. Your folder structure becomes your URL structure. Your content is just Markdown files in folders. There's no magic, no special configuration files scattered everywhere, no need to define routes in JavaScript.
 
-## Third: Schedule Time to Simplify
+Want a blog? Create a `content/blog` folder. Want documentation? Create `content/docs`. Each piece of content is a Markdown file with front matter. Simple, portable, and version-control friendly.
 
-Remember the To Not Do list above? Schedule some time this week to start reducing your projects, saying no to people, getting out of commitments, crossing stuff off your task list … so that you can have some sanity back.
+The front matter system is elegant too. You can use YAML, TOML, or JSON—whatever you prefer. Add custom fields for your needs. Hugo doesn't force you into rigid structures.
 
-There are lots of little things that you’ve said “yes” to that you probably shouldn’t have. That’s why you’re overloaded. Protect your more important work, and your time off, and your peace of mind, by saying “no” to things that aren’t as important.
+## Templates That Don't Fight You
 
-Schedule the time to simplify — you don’t have to do it today, but sometime soon — and you can then not have to worry about the things on your To Not Do list until then.
+Hugo uses Go templates, and while they take a moment to learn if you're coming from other systems, they're remarkably powerful and flexible. Unlike some generators that make simple things easy but complex things impossible, Hugo makes both simple and complex things achievable.
 
-## Fourth: Practice Mindful Focus
+You get:
 
-Go through the rest of the day with an attitude of “mindful focus.” That means that you are doing one thing at a time, being as present as you can, switching as little as you can.
+* **Partial templates** for reusable components
+* **Shortcodes** for embedding rich content in your Markdown
+* **Taxonomies** for flexible content categorization (tags, categories, or anything custom)
+* **Multilingual support** built right in
+* **Custom output formats** (JSON, RSS, AMP, whatever you need)
 
-Think of it as a settling of the mind. A new mode of being. A mindfulness practice (which means you won’t be perfect at it).
+The template system is consistent and predictable. Once you learn the basics, you can build anything.
 
-As you practice mindful focus, you’ll learn to practice doing things with an open heart, with curiosity and gratitude, and even joy. Try these one at a time as you get to do each task on your Short List.
+## Themes and Extensibility
 
-You’ll find that you’re not so overloaded, but that each task is just perfect for that moment. And that’s a completely new relationship with the work that you do, and a new relationship with life.
+Hugo's theme system is phenomenal. You can use community themes as-is, customize them, or build your own. Themes can be overridden at multiple levels, so you can use a theme as a base and customize just what you need.
+
+The Hugo Modules system takes this further, letting you compose your site from multiple sources, share code between projects, and keep everything maintainable.
+
+## Deployment Everywhere
+
+Because Hugo generates static HTML, CSS, and JavaScript, you can deploy anywhere. Literally anywhere that serves files over HTTP:
+
+* Netlify, Vercel, or Cloudflare Pages (with automatic builds)
+* GitHub Pages, GitLab Pages, or similar
+* AWS S3, Google Cloud Storage, or Azure Blob Storage
+* Your own server with nginx or Apache
+* Even a Raspberry Pi in your closet
+
+No server-side runtime required. No databases to manage. No security patches to worry about. Just static files that are fast, secure, and cheap to host.
+
+## Active Community and Excellent Documentation
+
+Hugo has been around since 2013, and it's actively maintained with regular releases. The documentation is comprehensive and well-organized. The community forum is helpful and active. When you run into issues (and you will—we all do), you'll find solutions.
+
+The project is stable, mature, and not going anywhere. It's not chasing the latest trends or reinventing itself every year. It's focused on doing one thing exceptionally well: generating static sites fast.
+
+## The Philosophy: Do One Thing, Do It Well
+
+At its core, Hugo embodies the Unix philosophy: do one thing and do it well. Hugo generates static sites. That's it. It doesn't try to be a JavaScript framework, a CMS, an e-commerce platform, or an everything-tool.
+
+This focus is refreshing in a world of frameworks that try to solve every problem. Hugo knows what it is, and it excels at it.
+
+## When Hugo Might Not Be Right
+
+To be fair, Hugo isn't perfect for every use case:
+
+* If you need dynamic server-side features, you'll need to combine Hugo with serverless functions or APIs
+* If your team is deeply invested in the JavaScript ecosystem, there might be friction in adopting Hugo
+* If you need a visual CMS that non-technical users can use, you'll want to pair Hugo with a headless CMS
+
+But for developer-focused workflows, content-heavy sites, documentation, blogs, portfolios, and marketing sites, Hugo is unbeatable.
+
+## My Recommendation
+
+After building dozens of sites with various tools, Hugo remains my first choice for static sites. The speed alone makes it worthwhile, but the simplicity, reliability, and zero-dependency approach seal the deal.
+
+If you're starting a new static site project, give Hugo a serious look. Download the binary, follow the quick start guide, and spend an hour building something. You might find, like I did, that it's exactly what you've been looking for.
+
+Hugo isn't just good. It's the best at what it does. And in a world full of complicated tools, that's worth celebrating.

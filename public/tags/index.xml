@@ -7,34 +7,83 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© AlfahrelRifananda</copyright>
-    <lastBuildDate>Wed, 01 Apr 2020 02:01:58 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 18:20:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Primer</title>
-      <link>http://localhost:1313/tags/primer/</link>
-      <pubDate>Wed, 01 Apr 2020 02:01:58 +0530</pubDate>
-      <guid>http://localhost:1313/tags/primer/</guid>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Thu, 15 Jan 2026 18:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Todo</title>
-      <link>http://localhost:1313/tags/todo/</link>
-      <pubDate>Wed, 01 Apr 2020 02:01:58 +0530</pubDate>
-      <guid>http://localhost:1313/tags/todo/</guid>
+      <title>Career Development</title>
+      <link>http://localhost:1313/tags/career-development/</link>
+      <pubDate>Thu, 15 Jan 2026 18:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/career-development/</guid>
       <description></description>
     </item>
     <item>
-      <title>Procrastinating</title>
-      <link>http://localhost:1313/tags/procrastinating/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
-      <guid>http://localhost:1313/tags/procrastinating/</guid>
+      <title>Coding</title>
+      <link>http://localhost:1313/tags/coding/</link>
+      <pubDate>Thu, 15 Jan 2026 18:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
-      <title>Space</title>
-      <link>http://localhost:1313/tags/space/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
-      <guid>http://localhost:1313/tags/space/</guid>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Thu, 15 Jan 2026 18:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>http://localhost:1313/tags/opinion/</link>
+      <pubDate>Thu, 15 Jan 2026 18:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Thu, 15 Jan 2026 16:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>http://localhost:1313/tags/performance/</link>
+      <pubDate>Thu, 15 Jan 2026 16:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>http://localhost:1313/tags/react/</link>
+      <pubDate>Thu, 15 Jan 2026 16:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/tags/web-development/</link>
+      <pubDate>Thu, 15 Jan 2026 16:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Thu, 15 Jan 2026 14:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Site Generators</title>
+      <link>http://localhost:1313/tags/static-site-generators/</link>
+      <pubDate>Thu, 15 Jan 2026 14:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/static-site-generators/</guid>
       <description></description>
     </item>
   </channel>
