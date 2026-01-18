@@ -2,7 +2,7 @@
 title: "Why Vibecoding is Destroying Your Skills"
 date: 2026-01-15T18:20:00+07:00
 description: "AI-assisted coding feels magical—until you realize you can't debug your own code, explain your architectural decisions, or solve problems without a chatbot. Let's talk about why vibecoding is setting developers up for failure."
-tags: [AI, Coding, Career Development, Learning, Opinion]
+tags: [Coding, Opinion]
 ---
 
 AI-assisted coding feels magical—until you realize you can't debug your own code, explain your architectural decisions, or solve problems without a chatbot. Let's talk about why vibecoding is setting developers up for failure.

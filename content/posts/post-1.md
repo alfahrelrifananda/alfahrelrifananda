@@ -2,7 +2,7 @@
 title: "Why Hugo is the Best Static Site Generator"
 date: 2026-01-15T14:30:00+07:00
 description: "After years of wrestling with slow build times, complicated setups, and bloated frameworks, I discovered Hugo. Here's why it stands head and shoulders above the rest."
-tags: [Hugo, Static Site Generators, Web Development, Performance]
+tags: [Hugo, Web Development, Performance]
 ---
 
 After years of wrestling with slow build times, complicated setups, and bloated frameworks, I discovered Hugo. Here's why it stands head and shoulders above the rest.

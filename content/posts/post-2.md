@@ -2,7 +2,7 @@
 title: "Why React is Ruining the Web"
 date: 2026-01-15T16:45:00+07:00
 description: "React has become the default choice for web development, but at what cost? Let's talk about how the React ecosystem has led us down a path of unnecessary complexity, bloated bundles, and websites that fail basic usability standards."
-tags: [React, Web Development, JavaScript, Performance, Opinion]
+tags: [Web Development, Performance, Opinion]
 ---
 
 React has become the default choice for web development, but at what cost? Let's talk about how the React ecosystem has led us down a path of unnecessary complexity, bloated bundles, and websites that fail basic usability standards.
