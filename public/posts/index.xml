@@ -10,18 +10,11 @@
     <lastBuildDate>Sun, 18 Jan 2026 23:15:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building a VPN Toggle for Waybar using OpenVPN for free</title>
-      <link>http://localhost:1313/posts/post-4/</link>
-      <pubDate>Sun, 18 Jan 2026 23:15:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/post-4/</guid>
-      <description>&lt;p&gt;Managing VPN connections on Linux shouldn&amp;rsquo;t require opening terminals and typing commands. After getting tired of manually starting and stopping OpenVPN services, I built a custom toggle script for Waybar that does it all with a single click. Here&amp;rsquo;s how it works and how you can build your own.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re using a tiling window manager with Waybar, you probably appreciate quick access to system controls. But VPN management often gets left out—you end up with some clunky system tray app or resort to terminal commands. I wanted something better: a clean status indicator in my bar, one-click toggling, and random server selection for better privacy.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Why Vibecoding is Destroying Your Skills</title>
+      <title>Create a free custom VPN toggle script for Waybar</title>
       <link>http://localhost:1313/posts/post-3/</link>
-      <pubDate>Thu, 15 Jan 2026 18:20:00 +0700</pubDate>
+      <pubDate>Sun, 18 Jan 2026 23:15:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/post-3/</guid>
-      <description>&lt;p&gt;AI-assisted coding feels magical—until you realize you can&amp;rsquo;t debug your own code, explain your architectural decisions, or solve problems without a chatbot. Let&amp;rsquo;s talk about why vibecoding is setting developers up for failure.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a new breed of developer emerging. They can ship features fast. Their code looks clean at first glance. They seem productive. But ask them to explain how their code works, debug an issue without AI assistance, or make architectural decisions, and you&amp;rsquo;ll see the cracks appear.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Managing VPN connections on Linux shouldn&amp;rsquo;t require opening terminals and typing commands. After getting tired of manually starting and stopping OpenVPN services, I built a custom toggle script for Waybar that does it all with a single click. Here&amp;rsquo;s how it works and how you can build your own.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re using a tiling window manager with Waybar, you probably appreciate quick access to system controls. But VPN management often gets left out—you end up with some clunky system tray app or resort to terminal commands. I wanted something better: a clean status indicator in my bar, one-click toggling, and random server selection for better privacy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why React is Ruining the Web</title>

@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Why Vibecoding is Destroying Your Skills - AlfahrelRifananda</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="AI-assisted coding feels magical—until you realize you can&#39;t debug your own code, explain your architectural decisions, or solve problems without a chatbot. Let&#39;s talk about why vibecoding is setting developers up for failure." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Create a free custom VPN toggle script for Waybar - AlfahrelRifananda</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tired of manually managing VPN connections? Here&#39;s how I built a custom toggle script for Waybar that randomly selects servers and keeps me protected with just one click." />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="http://localhost:1313/posts/post-3/">
   <meta property="og:site_name" content="AlfahrelRifananda">
-  <meta property="og:title" content="Why Vibecoding is Destroying Your Skills">
-  <meta property="og:description" content="AI-assisted coding feels magical—until you realize you can&#39;t debug your own code, explain your architectural decisions, or solve problems without a chatbot. Let&#39;s talk about why vibecoding is setting developers up for failure.">
+  <meta property="og:title" content="Create a free custom VPN toggle script for Waybar">
+  <meta property="og:description" content="Tired of manually managing VPN connections? Here&#39;s how I built a custom toggle script for Waybar that randomly selects servers and keeps me protected with just one click.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-01-15T18:20:00+07:00">
-    <meta property="article:modified_time" content="2026-01-15T18:20:00+07:00">
-    <meta property="article:tag" content="Coding">
-    <meta property="article:tag" content="Opinion">
+    <meta property="article:published_time" content="2026-01-18T23:15:00+07:00">
+    <meta property="article:modified_time" content="2026-01-18T23:15:00+07:00">
+    <meta property="article:tag" content="GNU/Linux">
+    <meta property="article:tag" content="Scripting">
+    <meta property="article:tag" content="Tutorial">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Why Vibecoding is Destroying Your Skills">
-  <meta name="twitter:description" content="AI-assisted coding feels magical—until you realize you can&#39;t debug your own code, explain your architectural decisions, or solve problems without a chatbot. Let&#39;s talk about why vibecoding is setting developers up for failure.">
+  <meta name="twitter:title" content="Create a free custom VPN toggle script for Waybar">
+  <meta name="twitter:description" content="Tired of manually managing VPN connections? Here&#39;s how I built a custom toggle script for Waybar that randomly selects servers and keeps me protected with just one click.">
 
         <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
@@ -64,139 +65,321 @@
       
       <div class="post-content">
         <div class="title">
-          <h1 class="title">Why Vibecoding is Destroying Your Skills</h1>
-          <div class="meta">Posted on Jan 15, 2026</div>
+          <h1 class="title">Create a free custom VPN toggle script for Waybar</h1>
+          <div class="meta">Posted on Jan 18, 2026</div>
         </div>
         
         <section class="body">
-          <p>AI-assisted coding feels magical—until you realize you can&rsquo;t debug your own code, explain your architectural decisions, or solve problems without a chatbot. Let&rsquo;s talk about why vibecoding is setting developers up for failure.</p>
-<p>There&rsquo;s a new breed of developer emerging. They can ship features fast. Their code looks clean at first glance. They seem productive. But ask them to explain how their code works, debug an issue without AI assistance, or make architectural decisions, and you&rsquo;ll see the cracks appear.</p>
-<p>They&rsquo;re vibecoding—letting AI write most of their code while they vibe-check the output and paste it into their projects. And it&rsquo;s creating a generation of developers who can&rsquo;t actually code.</p>
-<h2 id="what-is-vibecoding">What is Vibecoding?</h2>
-<p>Vibecoding is when you use AI coding assistants not as tools to augment your skills, but as replacements for them. It&rsquo;s copying code from ChatGPT, Claude, or GitHub Copilot without truly understanding what it does. It&rsquo;s treating programming like a game of &ldquo;does this feel right?&rdquo; instead of &ldquo;do I know this works and why?&rdquo;</p>
-<p>The workflow looks like this:</p>
-<ol>
-<li>Encounter a problem</li>
-<li>Ask AI to solve it</li>
-<li>Get code back</li>
-<li>Paste it in</li>
-<li>Run it</li>
-<li>If it works, move on. If not, ask AI to fix it</li>
-<li>Repeat</li>
-</ol>
-<p>There&rsquo;s minimal thinking, minimal learning, and minimal understanding. Just vibes.</p>
-<h2 id="the-illusion-of-productivity">The Illusion of Productivity</h2>
-<p>Here&rsquo;s what makes vibecoding so seductive: it feels incredibly productive. You&rsquo;re shipping features. Pull requests are getting merged. Your velocity metrics look great. Management is happy.</p>
-<p>But this productivity is a mirage.</p>
-<p>You&rsquo;re not building software; you&rsquo;re assembling it from parts you don&rsquo;t understand. You&rsquo;re not solving problems; you&rsquo;re delegating them to an AI and hoping the solution works. You&rsquo;re not growing as a developer; you&rsquo;re becoming increasingly dependent on a crutch.</p>
-<p>The moment the AI can&rsquo;t solve your problem, or gives you broken code, or leads you down the wrong path, you&rsquo;re stuck. You don&rsquo;t have the foundational skills to recognize the issue, let alone fix it.</p>
-<h2 id="you-cant-debug-what-you-dont-understand">You Can&rsquo;t Debug What You Don&rsquo;t Understand</h2>
-<p>Debugging is where vibecoding falls apart spectacularly.</p>
-<p>When your AI-generated code breaks—and it will—you&rsquo;re faced with a wall of code you didn&rsquo;t write and don&rsquo;t understand. You can ask the AI to fix it, sure, but that&rsquo;s just more code you don&rsquo;t understand. You&rsquo;re playing whack-a-mole with bugs, never addressing root causes because you can&rsquo;t see them.</p>
-<p>Real debugging requires understanding:</p>
+          <p>Managing VPN connections on Linux shouldn&rsquo;t require opening terminals and typing commands. After getting tired of manually starting and stopping OpenVPN services, I built a custom toggle script for Waybar that does it all with a single click. Here&rsquo;s how it works and how you can build your own.</p>
+<p>If you&rsquo;re using a tiling window manager with Waybar, you probably appreciate quick access to system controls. But VPN management often gets left out—you end up with some clunky system tray app or resort to terminal commands. I wanted something better: a clean status indicator in my bar, one-click toggling, and random server selection for better privacy.</p>
+<p>Let me walk you through building this solution. It&rsquo;s surprisingly straightforward, and once it&rsquo;s set up, you&rsquo;ll wonder how you lived without it.</p>
+<h2 id="what-were-building">What We&rsquo;re Building</h2>
+<p>The end result is a custom Waybar module that:</p>
 <ul>
-<li><strong>What the code is supposed to do</strong> (not just what you asked the AI to make)</li>
-<li><strong>How it actually works</strong> (the logic, the data flow, the edge cases)</li>
-<li><strong>Why it&rsquo;s failing</strong> (the actual root cause, not just symptoms)</li>
-<li><strong>What a proper fix looks like</strong> (not just code that makes the error go away)</li>
+<li>Shows your current VPN status and connected country</li>
+<li>Toggles your VPN connection with a single click</li>
+<li>Randomly selects from your available servers for better privacy</li>
+<li>Sends desktop notifications when connecting or disconnecting</li>
+<li>Handles multiple ProtonVPN configs automatically</li>
 </ul>
-<p>Vibecoding gives you none of this. You&rsquo;re debugging blind, entirely dependent on an AI that might be just as confused as you are.</p>
-<h2 id="the-knowledge-gap-grows-wider">The Knowledge Gap Grows Wider</h2>
-<p>Every time you let AI write code instead of writing it yourself, you miss a learning opportunity.</p>
-<p>You don&rsquo;t learn the patterns. You don&rsquo;t internalize the syntax. You don&rsquo;t build mental models of how things work. You don&rsquo;t develop problem-solving skills. You don&rsquo;t make mistakes and learn from them.</p>
-<p>Instead, you&rsquo;re creating a dependency. The more you rely on AI, the less capable you become without it. The knowledge gap between what you should know and what you actually know grows wider with every line of AI-generated code you paste.</p>
-<p>This is particularly dangerous for junior developers. They&rsquo;re supposed to be building foundational skills, but vibecoding lets them skip that process entirely. They might look productive now, but they&rsquo;re building a career on quicksand.</p>
-<h2 id="architecture-and-design-thinking-atrophy">Architecture and Design Thinking Atrophy</h2>
-<p>AI can generate code, but it can&rsquo;t make architectural decisions for your specific context. It doesn&rsquo;t understand your business requirements, your technical constraints, your team&rsquo;s capabilities, or your system&rsquo;s future needs.</p>
-<p>When you vibecode, you&rsquo;re not just outsourcing implementation—you&rsquo;re outsourcing thinking. You&rsquo;re not considering:</p>
+<p>This isn&rsquo;t just a status indicator—it&rsquo;s a complete VPN management solution that lives right in your status bar.</p>
+<h2 id="why-protonvpn">Why ProtonVPN?</h2>
+<p>I chose ProtonVPN for this setup because it&rsquo;s privacy-focused, has excellent free tier servers, and works perfectly with OpenVPN. The configs are clean, well-maintained, and just work. You could adapt this for other VPN providers, but ProtonVPN makes it especially easy.</p>
+<h2 id="the-setup-getting-your-vpn-configs-ready">The Setup: Getting Your VPN Configs Ready</h2>
+<p>Before we write any scripts, we need to get our VPN configurations in order. This is the foundation everything else builds on.</p>
+<h3 id="installing-the-essentials">Installing the Essentials</h3>
+<p>First, you&rsquo;ll need OpenVPN and notification support:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Arch Linux</span>
+</span></span><span style="display:flex;"><span>sudo pacman -S openvpn libnotify
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Ubuntu/Debian  </span>
+</span></span><span style="display:flex;"><span>sudo apt install openvpn libnotify-bin
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Fedora</span>
+</span></span><span style="display:flex;"><span>sudo dnf install openvpn libnotify
+</span></span></code></pre></div><p>Nothing fancy here—just the standard OpenVPN client and notification tools that most Linux systems use.</p>
+<h3 id="getting-your-protonvpn-configs">Getting Your ProtonVPN Configs</h3>
+<p>Head over to your ProtonVPN account dashboard and download the OpenVPN configuration files. You&rsquo;ll find them under Downloads → OpenVPN configuration files. Grab the servers you want to use—I recommend getting a mix of different countries for variety.</p>
+<p>Once downloaded, move them to the OpenVPN client directory and rename them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Move the configs</span>
+</span></span><span style="display:flex;"><span>sudo mv ~/Downloads/*.ovpn /etc/openvpn/client/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Rename from .ovpn to .conf (systemd requires this)</span>
+</span></span><span style="display:flex;"><span>cd /etc/openvpn/client/
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> file in *.ovpn; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    sudo mv <span style="color:#e6db74">&#34;</span>$file<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>file%.ovpn<span style="color:#e6db74">}</span><span style="color:#e6db74">.conf&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span></code></pre></div><p>The rename is crucial—systemd&rsquo;s OpenVPN service specifically looks for <code>.conf</code> files, not <code>.ovpn</code> files.</p>
+<h3 id="setting-up-authentication">Setting Up Authentication</h3>
+<p>ProtonVPN configs need your credentials to connect. Instead of getting prompted every time, we&rsquo;ll set up a credentials file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano /etc/openvpn/client/protonvpn-credentials.txt
+</span></span></code></pre></div><p>Add two lines—your ProtonVPN username on the first line, password on the second. That&rsquo;s it. Now secure it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo chown openvpn:openvpn /etc/openvpn/client/protonvpn-credentials.txt
+</span></span><span style="display:flex;"><span>sudo chmod <span style="color:#ae81ff">600</span> /etc/openvpn/client/protonvpn-credentials.txt
+</span></span></code></pre></div><p>Here&rsquo;s the catch: the downloaded configs often don&rsquo;t reference this credentials file correctly. They&rsquo;ll have just <code>auth-user-pass</code> without a path, which means they&rsquo;ll prompt you for credentials. Let&rsquo;s fix that:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo sed -i <span style="color:#e6db74">&#39;s|^auth-user-pass$|auth-user-pass /etc/openvpn/client/protonvpn-credentials.txt|&#39;</span> /etc/openvpn/client/*.conf
+</span></span></code></pre></div><p>Verify the fix worked:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>grep <span style="color:#e6db74">&#34;auth-user-pass&#34;</span> /etc/openvpn/client/*.conf
+</span></span></code></pre></div><p>You should see the full path to the credentials file on every line.</p>
+<h3 id="fixing-systemd-timeout-issues">Fixing Systemd Timeout Issues</h3>
+<p>Here&rsquo;s something that tripped me up initially: OpenVPN connections can take 30-60 seconds to establish, but systemd&rsquo;s default timeout is 90 seconds for the entire startup process. Sometimes that&rsquo;s not quite enough, especially on slower connections.</p>
+<p>Create a systemd override to give it more time:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mkdir -p /etc/systemd/system/openvpn-client@.service.d/
+</span></span><span style="display:flex;"><span>sudo tee /etc/systemd/system/openvpn-client@.service.d/override.conf <span style="color:#e6db74">&lt;&lt;EOF
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Service]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">TimeoutStartSec=120
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span><span style="display:flex;"><span>sudo systemctl daemon-reload
+</span></span></code></pre></div><p>This gives OpenVPN two full minutes to connect, which is plenty even for the slowest connections.</p>
+<h2 id="building-the-toggle-script">Building the Toggle Script</h2>
+<p>Now for the fun part—writing the script that actually manages your VPN connections.</p>
+<p>Create the script file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p ~/.config/waybar
+</span></span><span style="display:flex;"><span>touch ~/.config/waybar/vpn-toggle.sh
+</span></span><span style="display:flex;"><span>chmod +x ~/.config/waybar/vpn-toggle.sh
+</span></span></code></pre></div><p>Open it in your editor and let&rsquo;s build it piece by piece.</p>
+<h3 id="the-server-configuration">The Server Configuration</h3>
+<p>Start by defining which VPN servers you want to use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># VPN Toggle Script for ProtonVPN with Random Server Selection</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>CONFIGS<span style="color:#f92672">=(</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ca-free&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;jp-free&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;no-free&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;mx-free-12.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;nl-free-135.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;pl-free-2.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ro-free-28.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;sg-free-15.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ch-free-4.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>STATE_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/tmp/protonvpn-state&#34;</span>
+</span></span><span style="display:flex;"><span>CURRENT_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/tmp/protonvpn-current&#34;</span>
+</span></span></code></pre></div><p>The config names should match your <code>.conf</code> files exactly (minus the <code>.conf</code> extension). The state files track which server you&rsquo;re connected to—we&rsquo;ll use these for the status display.</p>
+<h3 id="country-name-mapping">Country Name Mapping</h3>
+<p>Nobody wants to see cryptic abbreviations in their status bar. Let&rsquo;s map country codes to full names:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>get_country_name<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> in
+</span></span><span style="display:flex;"><span>        ca<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Canada&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        jp<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Japan&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        no<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Norway&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        mx<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Mexico&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        nl<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Netherlands&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        pl<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Poland&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        ro<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Romania&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        sg<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Singapore&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        ch<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Switzerland&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        *<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Unknown&#34;</span> ;;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">esac</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>Add entries for whatever servers you&rsquo;re using. The function extracts the country code from the config name and returns the full country name.</p>
+<h3 id="checking-vpn-status">Checking VPN Status</h3>
+<p>We need to know if a VPN is currently running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>is_vpn_running<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    systemctl is-active --quiet <span style="color:#e6db74">&#34;openvpn-client@*&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>This checks if any OpenVPN client service is active. The wildcard matches all possible configs, so we don&rsquo;t need to check each one individually.</p>
+<h3 id="stopping-the-vpn">Stopping the VPN</h3>
+<p>When disconnecting, we want to make sure everything stops cleanly:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>stop_vpn<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Stop all openvpn services</span>
+</span></span><span style="display:flex;"><span>    sudo systemctl stop <span style="color:#e6db74">&#34;openvpn-client@*&#34;</span> 2&gt;/dev/null
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Clean up state files</span>
+</span></span><span style="display:flex;"><span>    rm -f <span style="color:#e6db74">&#34;</span>$STATE_FILE<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span>$CURRENT_FILE<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Give it a moment to fully stop</span>
+</span></span><span style="display:flex;"><span>    sleep 0.5
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Notify the user</span>
+</span></span><span style="display:flex;"><span>    notify-send -t <span style="color:#ae81ff">3000</span> -u normal <span style="color:#e6db74">&#34;VPN Disconnected&#34;</span> <span style="color:#e6db74">&#34;Your connection is no longer protected&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>The sleep is important—we want to make sure the service actually stops before the function returns. The notification gives you immediate feedback.</p>
+<h3 id="starting-the-vpn">Starting the VPN</h3>
+<p>This is where the magic happens—random server selection and connection:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>start_vpn<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Stop any running VPN first</span>
+</span></span><span style="display:flex;"><span>    sudo systemctl stop <span style="color:#e6db74">&#34;openvpn-client@*&#34;</span> 2&gt;/dev/null
+</span></span><span style="display:flex;"><span>    sleep <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Pick a random server</span>
+</span></span><span style="display:flex;"><span>    RANDOM_CONFIG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>CONFIGS[$RANDOM % <span style="color:#e6db74">${#</span>CONFIGS[@]<span style="color:#e6db74">}</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Extract country info</span>
+</span></span><span style="display:flex;"><span>    COUNTRY_CODE<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>echo <span style="color:#e6db74">&#34;</span>$RANDOM_CONFIG<span style="color:#e6db74">&#34;</span> | cut -d<span style="color:#e6db74">&#39;-&#39;</span> -f1<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>    COUNTRY_NAME<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>get_country_name <span style="color:#e6db74">&#34;</span>$COUNTRY_CODE<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Notify we&#39;re connecting</span>
+</span></span><span style="display:flex;"><span>    notify-send -t <span style="color:#ae81ff">3000</span> -u normal <span style="color:#e6db74">&#34;VPN Connecting&#34;</span> <span style="color:#e6db74">&#34;Connecting to </span>$COUNTRY_NAME<span style="color:#e6db74">...&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Start the VPN</span>
+</span></span><span style="display:flex;"><span>    sudo systemctl start <span style="color:#e6db74">&#34;openvpn-client@</span><span style="color:#e6db74">${</span>RANDOM_CONFIG<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    sleep <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Check if it actually connected</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> systemctl is-active --quiet <span style="color:#e6db74">&#34;openvpn-client@</span><span style="color:#e6db74">${</span>RANDOM_CONFIG<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;connected&#34;</span> &gt; <span style="color:#e6db74">&#34;</span>$STATE_FILE<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;</span>$RANDOM_CONFIG<span style="color:#e6db74">&#34;</span> &gt; <span style="color:#e6db74">&#34;</span>$CURRENT_FILE<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        notify-send -t <span style="color:#ae81ff">3000</span> -u normal <span style="color:#e6db74">&#34;VPN Connected&#34;</span> <span style="color:#e6db74">&#34;Connected to </span>$COUNTRY_NAME<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        notify-send -t <span style="color:#ae81ff">3000</span> -u critical <span style="color:#e6db74">&#34;VPN Failed&#34;</span> <span style="color:#e6db74">&#34;Could not connect to </span>$COUNTRY_NAME<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>The <code>$RANDOM</code> variable gives us a random number, and we use modulo to select a random index from our configs array. The three-second sleep gives the VPN time to establish the connection before we check if it succeeded.</p>
+<h3 id="the-main-toggle-logic">The Main Toggle Logic</h3>
+<p>Finally, tie it all together:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Main toggle logic</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> is_vpn_running; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    stop_vpn
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>    start_vpn
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>Simple and clean—if a VPN is running, stop it. If not, start one.</p>
+<h2 id="building-the-status-display">Building the Status Display</h2>
+<p>The toggle script handles the actual VPN management. Now we need a script that shows the current status in Waybar.</p>
+<p>Create the status script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>touch ~/.config/waybar/vpn-status.sh
+</span></span><span style="display:flex;"><span>chmod +x ~/.config/waybar/vpn-status.sh
+</span></span></code></pre></div><p>Here&rsquo;s the complete status script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># VPN Status Script for Waybar</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>CURRENT_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/tmp/protonvpn-current&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Country name mapping (same as toggle script)</span>
+</span></span><span style="display:flex;"><span>get_country_name<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> in
+</span></span><span style="display:flex;"><span>        ca<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Canada&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        jp<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Japan&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        no<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Norway&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        mx<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Mexico&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        nl<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Netherlands&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        pl<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Poland&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        ro<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Romania&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        sg<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Singapore&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        ch<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Switzerland&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        *<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;VPN&#34;</span> ;;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">esac</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check VPN status and output JSON for Waybar</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> systemctl is-active --quiet <span style="color:#e6db74">&#34;openvpn-client@*&#34;</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -f <span style="color:#e6db74">&#34;</span>$CURRENT_FILE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        CONFIG<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>cat <span style="color:#e6db74">&#34;</span>$CURRENT_FILE<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>        COUNTRY_CODE<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>echo <span style="color:#e6db74">&#34;</span>$CONFIG<span style="color:#e6db74">&#34;</span> | cut -d<span style="color:#e6db74">&#39;-&#39;</span> -f1<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>        COUNTRY_NAME<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>get_country_name <span style="color:#e6db74">&#34;</span>$COUNTRY_CODE<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;{\&#34;text\&#34;:\&#34; </span>$COUNTRY_NAME<span style="color:#e6db74">\&#34;,\&#34;tooltip\&#34;:\&#34;VPN Connected: </span>$CONFIG<span style="color:#e6db74">\&#34;,\&#34;class\&#34;:\&#34;connected\&#34;}&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;{\&#34;text\&#34;:\&#34; Connected\&#34;,\&#34;tooltip\&#34;:\&#34;VPN Connected\&#34;,\&#34;class\&#34;:\&#34;connected\&#34;}&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;{\&#34;text\&#34;:\&#34;󰷷 Disconnected\&#34;,\&#34;tooltip\&#34;:\&#34;VPN Disconnected - Click to connect\&#34;,\&#34;class\&#34;:\&#34;disconnected\&#34;}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>This outputs JSON that Waybar can parse. The <code>text</code> field is what shows in your bar, <code>tooltip</code> appears on hover, and <code>class</code> lets us style it with CSS.</p>
+<h2 id="integrating-with-waybar">Integrating with Waybar</h2>
+<p>Now we need to tell Waybar about our new module.</p>
+<h3 id="waybar-configuration">Waybar Configuration</h3>
+<p>Edit your Waybar config file (usually <code>~/.config/waybar/config</code>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;modules-right&#34;</span>: [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;custom/vpn&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;pulseaudio&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;clock&#34;</span>
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;custom/vpn&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;exec&#34;</span>: <span style="color:#e6db74">&#34;~/.config/waybar/vpn-status.sh&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;interval&#34;</span>: <span style="color:#ae81ff">5</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;return-type&#34;</span>: <span style="color:#e6db74">&#34;json&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;on-click&#34;</span>: <span style="color:#e6db74">&#34;~/.config/waybar/vpn-toggle.sh&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;format&#34;</span>: <span style="color:#e6db74">&#34;{}&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The module runs every 5 seconds to check status. When you click it, it runs the toggle script.</p>
+<h3 id="styling-the-module">Styling the Module</h3>
+<p>Add some visual polish in your Waybar CSS file (<code>~/.config/waybar/style.css</code>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>#custom-vpn.<span style="color:#a6e22e">connected</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#a6e3a1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#1e1e2e</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>#custom-vpn.<span style="color:#a6e22e">disconnected</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#f38ba8</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#1e1e2e</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>These colors are from the Catppuccin theme, but use whatever matches your setup. The key is having distinct styling for connected and disconnected states.</p>
+<h2 id="setting-up-passwordless-sudo">Setting Up Passwordless Sudo</h2>
+<p>The scripts need to run systemctl commands with sudo privileges. Rather than typing your password every time, set up passwordless sudo for these specific commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo visudo
+</span></span></code></pre></div><p>Add this line (replace <code>your_username</code> with your actual username):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>your_username ALL=(ALL) NOPASSWD: /usr/bin/systemctl start openvpn-client@*, /usr/bin/systemctl stop openvpn-client@*
+</span></span></code></pre></div><p>This is secure because it only allows these specific systemctl commands—nothing else gets passwordless access.</p>
+<h2 id="testing-your-setup">Testing Your Setup</h2>
+<p>Before restarting Waybar, let&rsquo;s make sure everything works.</p>
+<p>Test the toggle script manually:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>~/.config/waybar/vpn-toggle.sh
+</span></span></code></pre></div><p>You should see a notification and your VPN should connect to a random server. Check the status:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl status <span style="color:#e6db74">&#34;openvpn-client@*&#34;</span>
+</span></span></code></pre></div><p>Test the status script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>~/.config/waybar/vpn-status.sh
+</span></span></code></pre></div><p>You should see JSON output with your connection info.</p>
+<p>If everything looks good, restart Waybar:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>killall waybar <span style="color:#f92672">&amp;&amp;</span> waybar &amp;
+</span></span></code></pre></div><h2 id="customizing-for-your-setup">Customizing for Your Setup</h2>
+<p>The beauty of this approach is how easy it is to customize.</p>
+<h3 id="adding-more-servers">Adding More Servers</h3>
+<p>Just add the config name to the CONFIGS array and update the country mapping:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>CONFIGS<span style="color:#f92672">=(</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ca-free&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;us-free-01.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;de-free-15.protonvpn.udp&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Keep adding...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>get_country_name<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> in
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># ... existing mappings</span>
+</span></span><span style="display:flex;"><span>        us<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;United States&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        de<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;Germany&#34;</span> ;;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Keep adding...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">esac</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><h3 id="custom-notification-styling">Custom Notification Styling</h3>
+<p>Want different notification icons? Modify the <code>notify-send</code> calls:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>notify-send -i network-vpn -t <span style="color:#ae81ff">3000</span> -u normal <span style="color:#e6db74">&#34;VPN Connected&#34;</span> <span style="color:#e6db74">&#34;Connected to </span>$COUNTRY_NAME<span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><h3 id="adding-connection-logging">Adding Connection Logging</h3>
+<p>Track your VPN usage by adding logging:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>LOG_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.local/share/vpn-toggle.log&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># In start_vpn():</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>date<span style="color:#66d9ef">)</span><span style="color:#e6db74">: Connected to </span>$COUNTRY_NAME<span style="color:#e6db74">&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$LOG_FILE<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># In stop_vpn():</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>date<span style="color:#66d9ef">)</span><span style="color:#e6db74">: Disconnected&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$LOG_FILE<span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><h2 id="why-this-approach-works">Why This Approach Works</h2>
+<p>This setup has served me well for months now. Here&rsquo;s why it&rsquo;s better than the alternatives:</p>
 <ul>
-<li><strong>Is this the right approach for our use case?</strong></li>
-<li><strong>How will this scale?</strong></li>
-<li><strong>What are the trade-offs?</strong></li>
-<li><strong>How does this fit into our existing architecture?</strong></li>
-<li><strong>What are we optimizing for?</strong></li>
-<li><strong>What problems might this cause down the line?</strong></li>
+<li><strong>One-click simplicity.</strong> No menus, no terminal commands, just click and connect.</li>
+<li><strong>Privacy through randomness.</strong> Different server each time makes tracking harder.</li>
+<li><strong>Visual feedback.</strong> You always know your VPN status at a glance.</li>
+<li><strong>No dependencies.</strong> Just bash, systemd, and standard tools.</li>
+<li><strong>Easy maintenance.</strong> Add or remove servers by editing one array.</li>
 </ul>
-<p>AI gives you <em>an</em> answer, not necessarily the right answer for your situation. Without the judgment to evaluate that answer critically, you&rsquo;re just hoping for the best.</p>
-<h2 id="the-interview-reality-check">The Interview Reality Check</h2>
-<p>Here&rsquo;s where vibecoding hits a brick wall: technical interviews.</p>
-<p>You can&rsquo;t vibecode your way through a coding interview. You can&rsquo;t ask Claude to solve the algorithm question. You can&rsquo;t have ChatGPT explain your thought process. You can&rsquo;t paste Copilot suggestions into the whiteboard.</p>
-<p>It&rsquo;s just you, the problem, and your actual skills—which you haven&rsquo;t been developing because you&rsquo;ve been vibecoding.</p>
-<p>Developers who rely heavily on AI assistance often struggle with:</p>
-<ul>
-<li><strong>Live coding</strong> without AI suggestions</li>
-<li><strong>Explaining their reasoning</strong> (because they never developed any)</li>
-<li><strong>Discussing trade-offs</strong> (because the AI never explained them)</li>
-<li><strong>Solving problems from first principles</strong> (because they never practiced)</li>
-</ul>
-<p>The job market is brutal. If you can&rsquo;t demonstrate genuine competence without AI, you&rsquo;re going to struggle to get hired and even more to keep your job when problems arise.</p>
-<h2 id="code-review-becomes-meaningless">Code Review Becomes Meaningless</h2>
-<p>Code reviews are supposed to be learning opportunities where developers share knowledge, catch mistakes, and improve collectively. Vibecoding destroys this.</p>
-<p>When you submit AI-generated code you don&rsquo;t understand:</p>
-<ul>
-<li><strong>You can&rsquo;t explain your decisions</strong> because you didn&rsquo;t make them</li>
-<li><strong>You can&rsquo;t defend your approach</strong> because you don&rsquo;t know if it&rsquo;s good</li>
-<li><strong>You can&rsquo;t incorporate feedback meaningfully</strong> because you don&rsquo;t understand what needs changing or why</li>
-<li><strong>You can&rsquo;t learn from the review</strong> because the code isn&rsquo;t really yours</li>
-</ul>
-<p>Reviewers waste time explaining things to someone who will just ask AI for fixes anyway. The whole process becomes cargo cult software development—going through the motions without the substance.</p>
-<h2 id="the-maintenance-nightmare">The Maintenance Nightmare</h2>
-<p>Software isn&rsquo;t write-once. Code you write today will need to be maintained, extended, and debugged for years. By you or by your teammates.</p>
-<p>AI-generated code that nobody understands becomes a time bomb. Six months from now when it breaks or needs modification:</p>
-<ul>
-<li><strong>You won&rsquo;t remember how it works</strong> (you never knew)</li>
-<li><strong>You won&rsquo;t have context for why decisions were made</strong> (AI made them)</li>
-<li><strong>You won&rsquo;t recognize patterns or anti-patterns</strong> (you never learned them)</li>
-<li><strong>You&rsquo;ll just ask AI to change it</strong> (creating more code nobody understands)</li>
-</ul>
-<p>This creates legacy codebases filled with mysterious code that everyone&rsquo;s afraid to touch. Technical debt accumulates at an alarming rate because nobody understands the code well enough to refactor it properly.</p>
-<h2 id="when-ai-actually-helps">When AI Actually Helps</h2>
-<p>Let me be clear: AI coding assistants can be valuable tools when used correctly. They&rsquo;re great for:</p>
-<ul>
-<li><strong>Boilerplate code</strong> you understand but don&rsquo;t want to type</li>
-<li><strong>Syntax lookup</strong> for languages you know but don&rsquo;t use daily</li>
-<li><strong>Exploring approaches</strong> before implementing them yourself</li>
-<li><strong>Catching typos</strong> and simple errors</li>
-<li><strong>Generating test cases</strong> you then verify and understand</li>
-<li><strong>Learning by example</strong> when you study what the AI generates</li>
-</ul>
-<p>The key difference: you&rsquo;re using AI as an assistant, not a replacement for thinking. You understand what you&rsquo;re building, why you&rsquo;re building it that way, and how it works. The AI just helps you move faster.</p>
-<h2 id="how-to-code-with-ai-without-becoming-dependent">How to Code with AI Without Becoming Dependent</h2>
-<p>If you want to use AI tools without falling into the vibecoding trap:</p>
-<p><strong>Understand before you paste.</strong> Read the AI-generated code. Really read it. Make sure you understand every line, every function, every decision. If you don&rsquo;t understand something, research it. Don&rsquo;t just trust that it works.</p>
-<p><strong>Write code yourself first.</strong> Try to solve the problem before asking AI. Use AI to check your work or suggest improvements, not to do the work for you.</p>
-<p><strong>Explain it to yourself.</strong> If you can&rsquo;t explain how the code works and why it&rsquo;s a good solution, don&rsquo;t use it. Your understanding is more important than your velocity.</p>
-<p><strong>Modify and experiment.</strong> Don&rsquo;t just paste AI code verbatim. Change it, break it, fix it. Make it truly yours. This is how you learn.</p>
-<p><strong>Build fundamentals constantly.</strong> Regularly practice coding without AI. Solve algorithm problems. Build projects from scratch. Keep your core skills sharp.</p>
-<p><strong>Use AI for the right reasons.</strong> Let AI handle the tedious parts of coding you already understand. Use it to augment your existing skills, not replace missing ones.</p>
-<h2 id="the-long-term-career-cost">The Long-Term Career Cost</h2>
-<p>Here&rsquo;s what scares me most about vibecoding: it creates developers who can&rsquo;t grow.</p>
-<p>Senior developers aren&rsquo;t just fast coders. They&rsquo;re problem solvers who understand systems deeply, make sound architectural decisions, mentor others effectively, and navigate ambiguity with confidence. These skills come from years of actual coding, debugging, learning, and thinking.</p>
-<p>Vibecoding shortcuts this process. You get speed without understanding, output without growth, productivity without skill development. And eventually, you hit a ceiling.</p>
-<p>You can&rsquo;t become a senior developer by copying code from AI. You can&rsquo;t architect systems when you don&rsquo;t understand how they work. You can&rsquo;t mentor others when you&rsquo;re still dependent on AI yourself. You can&rsquo;t lead technical decisions when your judgment hasn&rsquo;t been developed through experience.</p>
-<h2 id="a-warning-for-beginners">A Warning for Beginners</h2>
-<p>If you&rsquo;re just starting your programming journey, vibecoding is especially dangerous. You&rsquo;re supposed to be struggling right now. That struggle is how you learn.</p>
-<p>When you can&rsquo;t figure out why your loop isn&rsquo;t working, and you spend an hour debugging it, and finally discover you used <code>=</code> instead of <code>==</code>, that&rsquo;s not wasted time. That&rsquo;s learning. That mistake will stick with you. You&rsquo;ll understand comparison operators at a deep level because you learned the hard way.</p>
-<p>If you just ask AI to fix it, you learn nothing. You&rsquo;ll make the same mistake again. And again. Because you never actually learned.</p>
-<p>The developers who will thrive in the AI era aren&rsquo;t those who can prompt AI most effectively. They&rsquo;re the ones with strong fundamentals who can use AI as an accelerator, not a crutch.</p>
-<h2 id="the-path-forward">The Path Forward</h2>
-<p>AI isn&rsquo;t going away. Coding assistants will only get better. But that doesn&rsquo;t mean we should surrender our skills to them.</p>
-<p>The best developers of the next decade will be those who:</p>
-<ul>
-<li><strong>Master fundamentals</strong> so they can evaluate AI suggestions critically</li>
-<li><strong>Understand deeply</strong> rather than copy blindly</li>
-<li><strong>Think architecturally</strong> about problems before reaching for solutions</li>
-<li><strong>Debug effectively</strong> with or without AI assistance</li>
-<li><strong>Learn continuously</strong> instead of depending perpetually</li>
-<li><strong>Use AI strategically</strong> to amplify their skills, not replace them</li>
-</ul>
-<p>Don&rsquo;t let AI rob you of the struggle that makes you better. Don&rsquo;t trade short-term productivity for long-term capability. Don&rsquo;t vibecode your way into incompetence.</p>
-<h2 id="final-thoughts">Final Thoughts</h2>
-<p>I&rsquo;ve watched developers become more productive with AI. I&rsquo;ve also watched developers become more dependent, less capable, and less employable.</p>
-<p>The difference isn&rsquo;t whether they use AI—it&rsquo;s whether they maintain their ability to code without it.</p>
-<p>Vibecoding feels good in the moment. It&rsquo;s fast, it&rsquo;s easy, and it works—until it doesn&rsquo;t. And when it doesn&rsquo;t work, when you&rsquo;re facing a problem AI can&rsquo;t solve or a bug AI can&rsquo;t fix, you&rsquo;ll wish you&rsquo;d built real skills instead of just vibing.</p>
-<p>Your career isn&rsquo;t built on how fast you can generate code. It&rsquo;s built on how well you can solve problems, understand systems, and grow as an engineer.</p>
-<p>Don&rsquo;t let vibecoding steal that from you.</p>
+<p>The whole system is about 100 lines of bash across two files. It&rsquo;s simple, reliable, and does exactly what you need without any bloat.</p>
+<h2 id="my-recommendation">My Recommendation</h2>
+<p>If you&rsquo;re running Waybar and use a VPN regularly, this is absolutely worth setting up. It takes maybe 20 minutes to get everything configured, and then it just works. Every day. Reliably.</p>
+<p>The random server selection is particularly nice—it&rsquo;s one less decision to make, and it naturally varies your connection pattern. Sometimes I&rsquo;m browsing from Canada, sometimes from Japan, sometimes from Switzerland. All with zero effort.</p>
+<p>Give it a try. Download your ProtonVPN configs, set up the scripts, and enjoy having proper VPN management right in your status bar. You might find, like I did, that it&rsquo;s exactly what you&rsquo;ve been missing.</p>
+<p>Because managing your VPN shouldn&rsquo;t be work. It should be one click. And with this setup, that&rsquo;s exactly what it is.</p>
 
         </section>
         <div class="post-tags">
@@ -205,9 +388,11 @@
           <nav class="nav tags">
             <ul class="tags">
               
-              <li><a href="/tags/coding">Coding</a></li>
+              <li><a href="/tags/gnu/linux">GNU/Linux</a></li>
               
-              <li><a href="/tags/opinion">Opinion</a></li>
+              <li><a href="/tags/scripting">Scripting</a></li>
+              
+              <li><a href="/tags/tutorial">Tutorial</a></li>
               
             </ul>
           </nav>
