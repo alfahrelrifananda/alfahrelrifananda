@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Pinpoint: A Network Privacy Checker - AlfahrelRifananda</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="I built Pinpoint to help people understand their network privacy. It checks your public IP, detects VPN or Tor usage, and shows potential privacy leaks." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/app-pinpoint-project/">
+  <meta property="og:site_name" content="AlfahrelRifananda">
+  <meta property="og:title" content="Pinpoint: A Network Privacy Checker">
+  <meta property="og:description" content="I built Pinpoint to help people understand their network privacy. It checks your public IP, detects VPN or Tor usage, and shows potential privacy leaks.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-08T11:00:00+07:00">
+    <meta property="article:modified_time" content="2026-02-08T11:00:00+07:00">
+    <meta property="article:tag" content="Flutter">
+    <meta property="article:tag" content="Project">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pinpoint: A Network Privacy Checker">
+  <meta name="twitter:description" content="I built Pinpoint to help people understand their network privacy. It checks your public IP, detects VPN or Tor usage, and shows potential privacy leaks.">
+
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.7a5c05040394322612a2d98397e9932aa81d9d7acc70199463e79f8180c8e0c0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">AlfahrelRifananda</a>
+	</div>
+	<nav>
+		
+		<a href="https://alfahrelrifananda.my.id/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		<button id="dark-mode-toggle" class="nav-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" type="button"><svg class="feather" viewBox="0 0 24 24" fill="none" stroke="#232333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg></button>
+		<script src="http://localhost:1313/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Pinpoint: A Network Privacy Checker</h1>
+          <div class="meta">Posted on Feb 8, 2026</div>
+        </div>
+        
+        <section class="body">
+          <p>I built Pinpoint to help people understand their network privacy. It checks your public IP, detects VPN or Tor usage, and shows potential privacy leaks.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>Pinpoint is a network information app that shows you what your device reveals about itself when it connects to the internet. It detects your public IP address with geolocation, identifies whether you&rsquo;re using a VPN or Tor network, displays your local network interface details, and checks for potential privacy leaks.</p>
+<p>The app lets you add custom IP lookup providers if you prefer specific services. Everything runs locally on your device, so your data stays with you.</p>
+<p><figure><img src="https://raw.githubusercontent.com/alfahrelrifananda/pinpoint/main/screenshot/screenshot1.png">
+</figure>
+
+<figure><img src="https://raw.githubusercontent.com/alfahrelrifananda/pinpoint/main/screenshot/screenshot2.png">
+</figure>
+</p>
+<h2 id="why-network-privacy-matters">Why Network Privacy Matters</h2>
+<p>When you use a VPN or Tor, you expect privacy. But sometimes these tools leak information through DNS queries, WebRTC, or other channels. Sometimes they just don&rsquo;t work as expected. Pinpoint helps you verify that your privacy tools are actually protecting you.</p>
+<p>The app shows your ISP, organization name, and location based on your public IP. If you&rsquo;re using a VPN, this information should reflect your VPN provider, not your actual ISP. If it doesn&rsquo;t, something is leaking.</p>
+<h2 id="how-detection-works">How Detection Works</h2>
+<p>Pinpoint uses several methods to detect VPN and Tor usage. For VPNs, it analyzes your ISP and organization name, matches patterns against known VPN providers, identifies hosting providers that VPNs commonly use, and validates your ASN (Autonomous System Number).</p>
+<p>For Tor detection, it checks organization names for Tor-related keywords, validates against the Tor Project API, verifies through third-party services, and compares against a database of known Tor ASNs.</p>
+<p>These methods aren&rsquo;t perfect, but they catch most cases. If you&rsquo;re using a lesser-known VPN or running your own VPN server, the app might not detect it. That&rsquo;s actually good for privacy, but it means the detection shows what a typical service would see.</p>
+<h2 id="built-with-flutter">Built With Flutter</h2>
+<p>I chose Flutter because it runs on Android, iOS, and web from a single codebase. The app uses Dart as the language and Material Design 3 for the interface. State management uses StatefulWidget with AutomaticKeepAliveClientMixin to keep network data persistent while switching tabs.</p>
+<p>For networking, it uses the HTTP package to query IP lookup services. For storage, SharedPreferences saves your custom provider settings locally. The architecture is straightforward and keeps everything client-side.</p>
+<h2 id="privacy-by-design">Privacy By Design</h2>
+<p>All processing happens on your device. Pinpoint queries third-party IP lookup services to gather network information, just like any website you visit would. But the app itself doesn&rsquo;t send data to any server I control. There&rsquo;s no analytics, no tracking, no data collection.</p>
+<p>You can verify this because the code is open source under GPL v3.0. Every network request is visible in the source code. If you don&rsquo;t trust the default IP lookup providers, you can add your own in settings.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>To use Pinpoint, download the latest release from GitHub and install it on your device. For Android, you need API 24 or higher. The app also runs on iOS and web if you build it yourself.</p>
+<p>For developers who want to build from source, you need Flutter SDK 3.0 or later. Clone the repository, run flutter pub get to install dependencies, then flutter run to launch the app. To build for production, use flutter build apk for Android, flutter build ios for iOS, or flutter build web for web deployment.</p>
+<h2 id="what-it-doesnt-do">What It Doesn&rsquo;t Do</h2>
+<p>Pinpoint shows you information about your network connection. It doesn&rsquo;t fix privacy leaks, doesn&rsquo;t provide VPN service, and doesn&rsquo;t block tracking. It&rsquo;s a diagnostic tool, not a privacy solution.</p>
+<p>If Pinpoint detects a leak while you&rsquo;re using a VPN, you need to fix your VPN configuration or switch to a better VPN provider. The app just shows you the problem.</p>
+<h2 id="contributing">Contributing</h2>
+<p>The project welcomes contributions. If you find bugs, open an issue. If you want to add features that align with the privacy-focused philosophy, submit a pull request. Code should follow Effective Dart guidelines to keep everything consistent and maintainable.</p>
+<h2 id="why-i-built-this">Why I Built This</h2>
+<p>I built Pinpoint because I wanted a simple way to verify my VPN was working. Most network tools show too much technical detail or require root access. I wanted something clean that answers one question: is my privacy setup actually working?</p>
+<p>The app does that. Launch it, check the status, and you know whether your VPN or Tor connection is protecting you or leaking information.</p>
+<p><a href="https://github.com/alfahrelrifananda/pinpoint/releases">Download from GitHub</a></p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/flutter">Flutter</a></li>
+              
+              <li><a href="/tags/project">Project</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/alfahrelrifananda/" rel="me" title="GitHub"><svg class="feather">
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+    </svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2026  © AlfahrelRifananda |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>

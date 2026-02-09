@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on AlfahrelRifananda</title>
+    <link>http://localhost:1313/tags/android/</link>
+    <description>Recent content in Android on AlfahrelRifananda</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© AlfahrelRifananda</copyright>
+    <lastBuildDate>Sun, 08 Feb 2026 10:30:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Melody: A Simple Local Music Player</title>
+      <link>http://localhost:1313/posts/app-melody-project/</link>
+      <pubDate>Sun, 08 Feb 2026 10:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/app-melody-project/</guid>
+      <description>&lt;p&gt;I built Melody because I got tired of music players that try to do everything. I just wanted something that plays my local music files without the bloat.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Melody is a music player for Android that plays music from your device storage. It has standard controls like play, pause, skip, shuffle, and repeat. It keeps playing in the background when you switch apps, with notification controls so you can change tracks without opening the app again.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

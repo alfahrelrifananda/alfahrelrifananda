@@ -7,28 +7,49 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© AlfahrelRifananda</copyright>
-    <lastBuildDate>Sun, 18 Jan 2026 23:15:00 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 13:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Create a free custom VPN toggle script for Waybar</title>
-      <link>http://localhost:1313/posts/post-3/</link>
-      <pubDate>Sun, 18 Jan 2026 23:15:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/post-3/</guid>
-      <description>&lt;p&gt;Managing VPN connections on Linux shouldn&amp;rsquo;t require opening terminals and typing commands. After getting tired of manually starting and stopping OpenVPN services, I built a custom toggle script for Waybar that does it all with a single click. Here&amp;rsquo;s how it works and how you can build your own.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re using a tiling window manager with Waybar, you probably appreciate quick access to system controls. But VPN management often gets left out—you end up with some clunky system tray app or resort to terminal commands. I wanted something better: a clean status indicator in my bar, one-click toggling, and random server selection for better privacy.&lt;/p&gt;</description>
+      <title>Wallet: A Simple Budget Tracker</title>
+      <link>http://localhost:1313/posts/app-wallet-project/</link>
+      <pubDate>Sun, 08 Feb 2026 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/app-wallet-project/</guid>
+      <description>&lt;p&gt;I built Wallet to track spending and manage finances. Add income and expenses, categorize transactions, view history. Your data stays on your device.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Wallet is a budget management app that tracks your income and expenses. You can add transactions with categories, view your transaction history, see your current balance, and manage everything through a Material Design 3 interface.&lt;/p&gt;&#xA;&lt;p&gt;The app stores all financial data locally on your device. Nothing syncs to the cloud unless you set up device backups yourself. The interface is available in English and Indonesian.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Why React is Ruining the Web</title>
-      <link>http://localhost:1313/posts/post-2/</link>
-      <pubDate>Thu, 15 Jan 2026 16:45:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/post-2/</guid>
-      <description>&lt;p&gt;React has become the default choice for web development, but at what cost? Let&amp;rsquo;s talk about how the React ecosystem has led us down a path of unnecessary complexity, bloated bundles, and websites that fail basic usability standards.&lt;/p&gt;&#xA;&lt;p&gt;I need to start with a confession: I&amp;rsquo;ve built dozens of production applications with React. I understand its appeal. The component model is elegant, the ecosystem is vast, and the developer experience can be quite nice. But somewhere along the way, we stopped asking whether we should use React and started assuming we must use it for everything.&lt;/p&gt;</description>
+      <title>Threshold: A Screen Time Manager</title>
+      <link>http://localhost:1313/posts/app-threshold-project/</link>
+      <pubDate>Sun, 08 Feb 2026 12:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/app-threshold-project/</guid>
+      <description>&lt;p&gt;I built Threshold to track app usage and manage screen time. Set daily limits, view usage charts, and understand your digital habits.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Threshold monitors how much time you spend in each app on your Android device. It tracks usage in real-time with session details, lets you set daily time limits from 5 to 300 minutes per app, shows charts and hourly breakdowns of your usage, and provides home screen widgets in 1x1 and 2x2 sizes.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Why Hugo is the Best Static Site Generator</title>
-      <link>http://localhost:1313/posts/post-1/</link>
-      <pubDate>Thu, 15 Jan 2026 14:30:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/post-1/</guid>
-      <description>&lt;p&gt;After years of wrestling with slow build times, complicated setups, and bloated frameworks, I discovered Hugo. Here&amp;rsquo;s why it stands head and shoulders above the rest.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re building websites in 2026, you&amp;rsquo;ve probably heard of static site generators. There are dozens of options out there—Jekyll, Gatsby, Next.js, Eleventy, and many more. Each has its strengths, but after trying them all, I keep coming back to Hugo. Not out of habit, but because it genuinely solves problems that other generators simply can&amp;rsquo;t match.&lt;/p&gt;</description>
+      <title>Bunker: A Simple Password Manager</title>
+      <link>http://localhost:1313/posts/app-bunker-project/</link>
+      <pubDate>Sun, 08 Feb 2026 12:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/app-bunker-project/</guid>
+      <description>&lt;p&gt;I built Bunker as a straightforward password manager. Create, edit, and delete passwords with a simple interface. Your data stays on your device.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Bunker stores your passwords locally on your device. You can create new password entries, edit existing ones, and delete passwords you no longer need. The interface is straightforward with no extra features to navigate around.&lt;/p&gt;&#xA;&lt;p&gt;All your password data stays on your device. Nothing syncs to the cloud unless you explicitly set that up yourself through device backups.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Toolbox: An All-in-One Utility App</title>
+      <link>http://localhost:1313/posts/app-toolbox-project/</link>
+      <pubDate>Sun, 08 Feb 2026 11:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/app-toolbox-project/</guid>
+      <description>&lt;p&gt;I made Toolbox for my own use as an all-in-one app for random stuff. Password generation, fake data, quick utilities—everything runs locally on your device.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Toolbox combines several utility tools into one app. It generates secure passwords, creates random identities and fake data for testing, provides quick games like dice rolling and coin flipping, and includes utilities like EXIF metadata removal and unit conversion.&lt;/p&gt;&#xA;&lt;p&gt;Everything runs offline. No sign-ups, no data collection, no internet connection required. Your data never leaves your device.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pinpoint: A Network Privacy Checker</title>
+      <link>http://localhost:1313/posts/app-pinpoint-project/</link>
+      <pubDate>Sun, 08 Feb 2026 11:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/app-pinpoint-project/</guid>
+      <description>&lt;p&gt;I built Pinpoint to help people understand their network privacy. It checks your public IP, detects VPN or Tor usage, and shows potential privacy leaks.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Pinpoint is a network information app that shows you what your device reveals about itself when it connects to the internet. It detects your public IP address with geolocation, identifies whether you&amp;rsquo;re using a VPN or Tor network, displays your local network interface details, and checks for potential privacy leaks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Melody: A Simple Local Music Player</title>
+      <link>http://localhost:1313/posts/app-melody-project/</link>
+      <pubDate>Sun, 08 Feb 2026 10:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/app-melody-project/</guid>
+      <description>&lt;p&gt;I built Melody because I got tired of music players that try to do everything. I just wanted something that plays my local music files without the bloat.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Melody is a music player for Android that plays music from your device storage. It has standard controls like play, pause, skip, shuffle, and repeat. It keeps playing in the background when you switch apps, with notification controls so you can change tracks without opening the app again.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me - Alfahrel Rifananda</title>

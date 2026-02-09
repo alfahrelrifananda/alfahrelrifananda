@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Melody: A Simple Local Music Player - AlfahrelRifananda</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="I built Melody because I wanted a simple music player for my local files. No subscriptions, no ads, just my music collection." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/app-melody-project/">
+  <meta property="og:site_name" content="AlfahrelRifananda">
+  <meta property="og:title" content="Melody: A Simple Local Music Player">
+  <meta property="og:description" content="I built Melody because I wanted a simple music player for my local files. No subscriptions, no ads, just my music collection.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-08T10:30:00+07:00">
+    <meta property="article:modified_time" content="2026-02-08T10:30:00+07:00">
+    <meta property="article:tag" content="Android">
+    <meta property="article:tag" content="Project">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Melody: A Simple Local Music Player">
+  <meta name="twitter:description" content="I built Melody because I wanted a simple music player for my local files. No subscriptions, no ads, just my music collection.">
+
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.7a5c05040394322612a2d98397e9932aa81d9d7acc70199463e79f8180c8e0c0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">AlfahrelRifananda</a>
+	</div>
+	<nav>
+		
+		<a href="https://alfahrelrifananda.my.id/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		<button id="dark-mode-toggle" class="nav-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" type="button"><svg class="feather" viewBox="0 0 24 24" fill="none" stroke="#232333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg></button>
+		<script src="http://localhost:1313/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Melody: A Simple Local Music Player</h1>
+          <div class="meta">Posted on Feb 8, 2026</div>
+        </div>
+        
+        <section class="body">
+          <p>I built Melody because I got tired of music players that try to do everything. I just wanted something that plays my local music files without the bloat.</p>
+<h2 id="what-it-does">What It Does</h2>
+<p>Melody is a music player for Android that plays music from your device storage. It has standard controls like play, pause, skip, shuffle, and repeat. It keeps playing in the background when you switch apps, with notification controls so you can change tracks without opening the app again.</p>
+<p>The interface uses Material 3 design with dynamic color theming, so it matches whatever wallpaper you&rsquo;re using. It works on Android devices running API 24 and above.</p>
+<p><figure><img src="https://raw.githubusercontent.com/alfahrelrifananda/melody/main/screenshot/screenshot1.png">
+</figure>
+
+<figure><img src="https://raw.githubusercontent.com/alfahrelrifananda/melody/main/screenshot/screenshot3.png">
+</figure>
+</p>
+<h2 id="why-i-built-it-this-way">Why I Built It This Way</h2>
+<p>I built Melody with Java and native Android components because they&rsquo;re reliable and well-documented. The app uses MediaPlayer and MediaSession for audio playback, which means it integrates properly with Android&rsquo;s media controls.</p>
+<p>There are no dependencies on external services. You don&rsquo;t need an account, internet connection, or subscription. Download the app, grant storage permissions, and your music plays.</p>
+<p>The code is open source under GPL v3.0, so you can see exactly what the app does. No tracking, no data collection, no surprises.</p>
+<h2 id="what-it-doesnt-do">What It Doesn&rsquo;t Do</h2>
+<p>Melody doesn&rsquo;t stream music from the internet. It doesn&rsquo;t have an equalizer, lyrics display, or social features. If you need those, there are other apps that do them well. Melody focuses on local playback and does that one thing reliably.</p>
+<h2 id="getting-it">Getting It</h2>
+<p>You can download Melody from the GitHub releases page. If you want to build it yourself, clone the repository, open it in Android Studio, and run it. The project structure follows standard Android conventions.</p>
+<p>The app is currently available in English. If you want to contribute translations or report bugs, the repository is open for issues and pull requests.</p>
+<p>Melody works for me because it&rsquo;s simple and gets out of the way. If you have local music files and want something straightforward to play them, it might work for you too.</p>
+<p><a href="https://github.com/alfahrelrifananda/melody/releases">Download from GitHub</a></p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/android">Android</a></li>
+              
+              <li><a href="/tags/project">Project</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/alfahrelrifananda/" rel="me" title="GitHub"><svg class="feather">
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+    </svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2026  © AlfahrelRifananda |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>
