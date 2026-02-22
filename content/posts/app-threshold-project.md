@@ -1,5 +1,5 @@
 ---
-title: "Threshold"
+title: "Managing Screen Time and App Usage"
 date: 2026-02-08T12:30:00+07:00
 description: "I built Threshold to track app usage and manage screen time. Set daily limits, view usage charts, and understand your digital habits."
 tags: [Flutter, Project]

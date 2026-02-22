@@ -1,5 +1,5 @@
 ---
-title: "Toolbox"
+title: "Random Utilities app"
 date: 2026-02-08T11:30:00+07:00
 description: "I made Toolbox for my own use as an all-in-one app for random stuff. Password generation, fake data, quick utilities—everything runs locally on your device."
 tags: [Flutter, Project]

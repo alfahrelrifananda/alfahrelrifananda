@@ -1,5 +1,5 @@
 ---
-title: "Bunker"
+title: "A simple password manager"
 date: 2026-02-08T12:00:00+07:00
 description: "I built Bunker as a straightforward password manager. Create, edit, and delete passwords with a simple interface. Your data stays on your device."
 tags: [Flutter, Project]
