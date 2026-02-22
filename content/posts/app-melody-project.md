@@ -1,5 +1,5 @@
 ---
-title: "Melody: A Simple Local Music Player"
+title: "Melody"
 date: 2026-02-08T10:30:00+07:00
 description: "I built Melody because I wanted a simple music player for my local files. No subscriptions, no ads, just my music collection."
 tags: [Android, Project]

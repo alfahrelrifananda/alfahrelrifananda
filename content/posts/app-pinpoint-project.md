@@ -1,5 +1,5 @@
 ---
-title: "Pinpoint: A Network Privacy Checker"
+title: "Pinpoint"
 date: 2026-02-08T11:00:00+07:00
 description: "I built Pinpoint to help people understand their network privacy. It checks your public IP, detects VPN or Tor usage, and shows potential privacy leaks."
 tags: [Flutter, Project]

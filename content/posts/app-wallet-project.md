@@ -1,5 +1,5 @@
 ---
-title: "Wallet: A Simple Budget Tracker"
+title: "Wallet"
 date: 2026-02-08T13:00:00+07:00
 description: "I built Wallet to track spending and manage finances. Add income and expenses, categorize transactions, view history. Your data stays on your device."
 tags: [Flutter, Project]
