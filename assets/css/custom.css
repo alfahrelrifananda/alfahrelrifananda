@@ -1,0 +1,72 @@
+:root {
+  --color-primary: #1a1a1a;
+  --color-primary-hover: #000000;
+  --color-border: #555555;
+  --color-callout: #333333;
+  --color-primary-dark: #e0e0e0;
+  --color-primary-hover-dark: #ffffff;
+  --color-border-dark: #aaaaaa;
+  --color-background-draft-dark: #444444;
+  --color-background-draft: #f4f4f4;
+}
+
+.callout-alert {
+  color: #2a2a2a;
+  background-color: #e8e8e8;
+  border: 3px solid #bbbbbb;
+}
+
+.callout-tip {
+  color: #1a1a1a;
+  background-color: #f0f0f0;
+  border: 3px solid #cccccc;
+}
+
+.callout-warning {
+  color: #2a2a2a;
+  background-color: #e8e8e8;
+  border: 3px solid #aaaaaa;
+}
+
+.highlight pre code[class*="language-js"]::before,
+.highlight pre code[class="language-javascript"]::before {
+  background: #555555;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-ts"]::before {
+  background: #333333;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-py"]::before,
+.highlight pre code[class*="language-python"]::before {
+  background: #444444;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-go"]::before {
+  background: #666666;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-css"]::before {
+  background: #222222;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-html"]::before {
+  background: #777777;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-yml"]::before,
+.highlight pre code[class*="language-yaml"]::before {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-shell"]::before,
+.highlight pre code[class*="language-bash"]::before,
+.highlight pre code[class*="language-sh"]::before {
+  background: #888888;
+  color: #ffffff;
+}
+.highlight pre code[class*="language-md"]::before,
+.highlight pre code[class*="language-markdown"]::before {
+  background: #3a3a3a;
+  color: #ffffff;
+}
