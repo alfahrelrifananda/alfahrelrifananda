@@ -10,35 +10,35 @@
     <lastBuildDate>Sun, 08 Feb 2026 13:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Wallet: A Simple Budget Tracker</title>
+      <title>Tracking Spending and Managing Finances</title>
       <link>http://localhost:1313/posts/app-wallet-project/</link>
       <pubDate>Sun, 08 Feb 2026 13:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/app-wallet-project/</guid>
       <description>&lt;p&gt;I built Wallet to track spending and manage finances. Add income and expenses, categorize transactions, view history. Your data stays on your device.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Wallet is a budget management app that tracks your income and expenses. You can add transactions with categories, view your transaction history, see your current balance, and manage everything through a Material Design 3 interface.&lt;/p&gt;&#xA;&lt;p&gt;The app stores all financial data locally on your device. Nothing syncs to the cloud unless you set up device backups yourself. The interface is available in English and Indonesian.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Threshold: A Screen Time Manager</title>
+      <title>Managing Screen Time and App Usage</title>
       <link>http://localhost:1313/posts/app-threshold-project/</link>
       <pubDate>Sun, 08 Feb 2026 12:30:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/app-threshold-project/</guid>
       <description>&lt;p&gt;I built Threshold to track app usage and manage screen time. Set daily limits, view usage charts, and understand your digital habits.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Threshold monitors how much time you spend in each app on your Android device. It tracks usage in real-time with session details, lets you set daily time limits from 5 to 300 minutes per app, shows charts and hourly breakdowns of your usage, and provides home screen widgets in 1x1 and 2x2 sizes.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bunker: A Simple Password Manager</title>
+      <title>A simple password manager</title>
       <link>http://localhost:1313/posts/app-bunker-project/</link>
       <pubDate>Sun, 08 Feb 2026 12:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/app-bunker-project/</guid>
       <description>&lt;p&gt;I built Bunker as a straightforward password manager. Create, edit, and delete passwords with a simple interface. Your data stays on your device.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Bunker stores your passwords locally on your device. You can create new password entries, edit existing ones, and delete passwords you no longer need. The interface is straightforward with no extra features to navigate around.&lt;/p&gt;&#xA;&lt;p&gt;All your password data stays on your device. Nothing syncs to the cloud unless you explicitly set that up yourself through device backups.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Toolbox: An All-in-One Utility App</title>
+      <title>Random Utilities app</title>
       <link>http://localhost:1313/posts/app-toolbox-project/</link>
       <pubDate>Sun, 08 Feb 2026 11:30:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/app-toolbox-project/</guid>
       <description>&lt;p&gt;I made Toolbox for my own use as an all-in-one app for random stuff. Password generation, fake data, quick utilities—everything runs locally on your device.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;p&gt;Toolbox combines several utility tools into one app. It generates secure passwords, creates random identities and fake data for testing, provides quick games like dice rolling and coin flipping, and includes utilities like EXIF metadata removal and unit conversion.&lt;/p&gt;&#xA;&lt;p&gt;Everything runs offline. No sign-ups, no data collection, no internet connection required. Your data never leaves your device.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Pinpoint: A Network Privacy Checker</title>
+      <title>Network Checker</title>
       <link>http://localhost:1313/posts/app-pinpoint-project/</link>
       <pubDate>Sun, 08 Feb 2026 11:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/app-pinpoint-project/</guid>
