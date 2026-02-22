@@ -1,10 +1,1 @@
-# My Site
-
-A simple personal website built with Hugo and the Archie theme.
-
-## Tech Stack
-
-- **Framework**: [Hugo](https://gohugo.io/)
-- **Theme**: [Archie](https://github.com/athul/archie)
-- **Site**: [www.alfahrelrifananda.my.id](https://www.alfahrelrifananda.my.id)
-
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTdwdzRmMTE1NWNhbjg1Nzk0OTh5MzlrZWdhczh3NG5qeHRlaTk3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JOFq9pZn6S3G2BuJF3/giphy.gif" width="100%" />
